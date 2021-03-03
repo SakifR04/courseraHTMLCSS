@@ -2,8 +2,19 @@
 padding:0;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#beef,#sushi,#chicken{
+    float: left;
+    text-align: center;
+    position:relative;
+    width: 350px;
+    background-color:  #ddd;
+    margin:10px;
+    padding:35px 35px 5px 35px;
+    font-size: 1.25em;
+}
 .container{
     height: 50vh;
+    text-align: center;
 }
  .top-right-block{
      height: 5vh;
@@ -14,16 +25,18 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border:1px solid #000; 
 }
 #header{
+    font-size:1.75em;
     display: block;
     text-align: center;
     margin:2em;
 }
-#yellow{background-color: palegoldenrod;}
+#yellow{
+    background-color: palegoldenrod;}
 #pink{
     background-color: pink;
 }
 #red{background-color: orangered;}
-#beef{
+/* #beef{
 text-align: center;
 float: left;
     position:relative;
@@ -32,13 +45,7 @@ float: left;
     margin:2em;
     background-color: #ddd;
 }
-#sushi{float: left;
-    text-align: center;
-    position:relative;
-    width: 18vw;
-    background-color:  #ddd;
-    margin:2em;
-padding:4em 4em 0em 4em;
+#sushi{
 }
 #chicken{float: left;
     position:relative;
@@ -46,16 +53,18 @@ padding:4em 4em 0em 4em;
     width: 18vw;
     background-color:  #ddd;
     margin:2em;
-    padding:4em 4em 0em 4em;   
-}
+    padding:4em 4em 0em 4em;    
+}   */
 @media(max-width:991px) and (min-width:768px){
 #beef,#chicken{
-    width:28%;
     margin:3vw;
+    width:250px;
     float:left;}
-#sushi{
-    width: 70vw;
-    clear:both;
+ #sushi{
+    width: 700px;
+    clear: both;
+    height: 150px;
+
 }
 }
 @media(max-width:767px){
